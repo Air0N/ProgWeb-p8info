@@ -12,7 +12,10 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 
-## :check: ESTADO DOS PROJETOS
+## ✔️ ESTADO DOS PROJETOS
 
-- FORM PAGE - ## EM ANDAMENTO
-- LOGIN PAGE - ## EM ANDAMENTO
+- PAGINA DE FORMULÁRIO - EM ANDAMENTO
+- PÁGINA DE LOGIN - EM ANDAMENTO
+- LANDING PAGE - EM ANDAMENTO
+- HOMEPAGE - EM ANDAMENTO
+- SITE PARALLAX - EM ANDAMENTO
