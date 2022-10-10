@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(15deg, #034159, #025951);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.form-nome {
+    background-image: linear-gradient(96deg, #034159, #03914f);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 430px;
+    height: 80px;
+    margin-left: 343px;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+form {
+    background-color: #fff;
+    width: 430px;
+    height: 480px;
+    padding: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-campos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo label {   
+    margin-top: 10px; 
+    color: #02735e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.campo input{
+    outline: none;
+    border: none;
+    border: 1px solid #02735e;
+    width: 350px;
+}
+
+.campo input:hover {
+    outline: none;
+}
+
+.campo textarea {
+    outline: none;
+    border: none;
+    border: 1px solid #02735e;
+}
+
+.campo teaxtarea:hover {
+    outline: none;
+}
+
+#btn-form {
+    margin-top: 10px;
+    border: none;
+    background-image: linear-gradient(to top, #0cf25d, #02735e);
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 120px;
+    width: 110px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+}
