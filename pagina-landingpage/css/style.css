@@ -7,6 +7,7 @@ body {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #menu-nav { 
@@ -20,6 +21,7 @@ body {
     font-size: 25px;
     line-height: 70px;
     margin-left: 50px;
+    font-weight: bold;
 }
 
 #menu-nav ul {
@@ -37,6 +39,20 @@ body {
     font-size: 22px;
     color: #0cf25d;
     line-height: 70px;
+    font-weight: bold;
+}
+
+.div-geral {
+    display: flex;
+    width: 100%;
+}
+
+.div01 {
+    width: 50%;
+}
+
+.div02 {
+    width: 50%;
 }
 
 .conteudo-site {
@@ -49,11 +65,11 @@ h1, h3 {
 }
 
 h1 {
-    margin: 0;
+    margin-right: 35px;
 }
 
 h3 {
-    margin-right: 40px;
+    margin-right: 75px;
 }
 
 .form-site {
@@ -67,6 +83,7 @@ h3 {
     box-shadow: -5px 2px 10px 1px #00000060;
     width: 241px;
     height: 30px;
+    color: #fff;
 }
 
 input::placeholder {
@@ -83,19 +100,25 @@ input::placeholder {
     color: #fff;
     font-weight: bold;
     box-shadow: -5px 2px 10px 1px #00000060;
+    margin-right: 39px;
 }
 
 hr {
-    width: 350px;
+    width: 410px;
     float: right;
     color: #89f7b3;
+    border: 2px solid #89f7b3;
+    border-radius: 30px;
     size: 100;
 }
 
 .conteudo-escrita {
-    text-align: right;
+    text-align: justify;
 }
 
 .conteudo-escrita p {
+    margin-left: 150px;
     color: #13ce78;
+    font-size: 16px;
+    font-weight: bold;
 }
