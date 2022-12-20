@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul {
+    background-color: #00000040;
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+    font-size: 18px;
+}
+
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.imagem img {
+    width: 400px;
+    height: 600px;
+}

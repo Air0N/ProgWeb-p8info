@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul {
+    background-color: #00000040;
+    
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+    font-size: 18px;
+}
+
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+.conteudo {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navegaçao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #FFF;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.barra:hover {
+    background-color: #FFF;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 33.3%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -33.3%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -66.6%;
+}
+

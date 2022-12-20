@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul {
+    background-color: #00000040;
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+    font-size: 18px;
+}
+
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+.geral01 {
+    background-image: url("../img/background01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background01 {
+    margin-top: -17px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    display: flex;
+}
+
+.conteudo01 img {
+    width: 480px;
+    text-align: center;
+}
+
+.conteudo01 figcaption {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 67px;
+}
+
+#btn-test {
+    background-color: #2FC9BF;
+    border: none;
+    margin-left: 210px;
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+iframe {
+    margin-left: 200px;
+}
+
+
+.background02 {
+    background-image: url(../img/background02.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.geral02 img {
+    width: 650px;
+    height: 400px;
+}
+
+.geral02 p {
+    color: #FFF;
+    margin-left: 90px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+.background03 {
+    background-image: url(../img/background03.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.geral03 img {
+    width: 600px;
+    height: 400px;
+}
+
+.geral03 p {
+    color: #FFF;
+    margin-right: 90px;
+    font-size: 30px;
+    text-align: justify;
+}

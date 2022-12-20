@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.form {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: #FFFFFF80;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.inputs {
+    position: relative;
+}
+  
+.inputs i {
+    position: absolute;
+    top: 12px;
+    right:20px;
+    font-size: 19px;
+}
+
+#nome_usu {
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF80;
+}
+
+#email_usu {
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF80;
+}
+
+#senha_usu {
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF80;
+}
+
+#data_nasc_usu {
+    width: 280px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF80;
+}
+
+#nome_usu::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+#email_usu::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+#senha_usu::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+#data_nasc_usu::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+#btn-form {
+    width: 280px;
+    height: 45px;
+    background-color: #56BD6A;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#btn-recover {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
